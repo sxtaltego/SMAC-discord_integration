@@ -1,5 +1,11 @@
 # SMAC-discord_integration
-An edited SMAC.sp that relays ban entry in SMAC.log to designated discord channel. Add the following field to your /configs/discord.cfg
+An edited SMAC.sp that relays ban entry in SMAC.log to designated discord channel. An example relay in the designated discord channel is shown below:
+
+🚨 SMAC Alert: [smac_speedhack.smx | 0.8.8.1] TU VIEJA . EXE (ID: STEAM_1:0:123456789 | IP: 1.1.1.1) is suspected of using speedhack. | Map: c5m4_quarter | Origin: -3062 3103 224 | Angles: 14 -163 0 | Weapon: weapon_autoshotgun | Team: 2 | Latency: 131ms | 🔗 Profile: https://steamcommunity.com/profiles/99999999999999
+
+
+How to designate your discord server channel:
+Add the following field to your /configs/discord.cfg
 
 	"anticheat"
 	{

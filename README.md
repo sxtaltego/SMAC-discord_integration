@@ -8,11 +8,10 @@ Instructions:
 1. Add the following field to your /configs/discord.cfg
 
 
-	"anticheat"
+	`"anticheat"
 	{
 		"url"	"YOUR DISCORD CHANNEL WEBHOOK"
-	}
-
+	}`
 
 2. Make smac_log_verbose=1 in your /cfg/sourcemod/smac.cfg
 

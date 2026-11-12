@@ -5,6 +5,7 @@ An edited SMAC.sp that relays ban entry in SMAC.log to designated discord channe
 
 
 How to designate your discord server channel:
+
 Add the following field to your /configs/discord.cfg
 
 	"anticheat"
@@ -12,4 +13,4 @@ Add the following field to your /configs/discord.cfg
 		"url"	"YOUR DISCORD CHANNEL WEBHOOK"
 	}
 
-This plugin leverages the core functionality of Discord API plugin by zipcore (https://forums.alliedmods.net/showthread.php?t=292663), which requires steamworks extension (https://users.alliedmods.net/~kyles/builds/SteamWorks/). 
+This plugin leverages the core functionality of Discord API plugin by zipcore (https://forums.alliedmods.net/showthread.php?t=292663), which requires steamworks extension (https://users.alliedmods.net/~kyles/builds/SteamWorks/)

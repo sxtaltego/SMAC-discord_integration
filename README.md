@@ -5,15 +5,13 @@ An edited SMAC.sp that relays ban entry in SMAC.log to designated discord channe
 
 
 Instructions:
-1. Add the following field to your /configs/discord.cfg
+1. This plugin leverages the core functionality of Discord API plugin by zipcore (https://forums.alliedmods.net/showthread.php?t=292663), which requires steamworks extension (https://users.alliedmods.net/~kyles/builds/SteamWorks/)
+2. Add the following field to your /configs/discord.cfg
 
-
-	`"anticheat"
+```sourcepawn
+"anticheat"
 	{
 		"url"	"YOUR DISCORD CHANNEL WEBHOOK"
-	}`
-
-2. Make smac_log_verbose=1 in your /cfg/sourcemod/smac.cfg
-
-
-This plugin leverages the core functionality of Discord API plugin by zipcore (https://forums.alliedmods.net/showthread.php?t=292663), which requires steamworks extension (https://users.alliedmods.net/~kyles/builds/SteamWorks/)
+	}
+```
+3. Make smac_log_verbose=1 in your /cfg/sourcemod/smac.cfg
